@@ -1,0 +1,4 @@
+﻿modelo,n_preditores,R2,R2_ajustado,AIC,BIC,VIF_max
+A — original,19,0.7642,0.7636,7337.3105,7477.1939,63.97
+B — sem quartos,18,0.7635,0.763,7358.2341,7491.1234,51.3
+C — m2_por_quarto,18,0.7143,0.7137,8881.2995,9014.1888,41.51

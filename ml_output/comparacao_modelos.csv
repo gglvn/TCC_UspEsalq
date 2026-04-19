@@ -1,0 +1,4 @@
+﻿Modelo,R² Teste,RMSE Teste (R$),MAE Teste (R$),MAPE Teste (%),R² Treino
+OLS (baseline),0.7168,971153.0,504628.0,29.17,0.5814
+Random Forest,0.7339,941302.0,457138.0,25.69,0.7754
+XGBoost,0.7419,927113.0,462804.0,26.27,0.8042

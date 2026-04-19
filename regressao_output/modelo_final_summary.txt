@@ -1,0 +1,45 @@
+Modelo: A — original
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              log_valor   R-squared:                       0.764
+Model:                            OLS   Adj. R-squared:                  0.764
+Method:                 Least Squares   F-statistic:                     1168.
+Date:                Sun, 19 Apr 2026   Prob (F-statistic):               0.00
+Time:                        03:06:12   Log-Likelihood:                -3648.7
+No. Observations:                8056   AIC:                             7337.
+Df Residuals:                    8036   BIC:                             7477.
+Df Model:                          19                                         
+Covariance Type:                  HC3                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+Intercept                      9.7961      0.073    134.620      0.000       9.653       9.939
+regiao_Central[T.True]         0.6431      0.030     21.412      0.000       0.584       0.702
+regiao_Continental[T.True]     0.3921      0.032     12.432      0.000       0.330       0.454
+regiao_Leste[T.True]           0.3571      0.034     10.606      0.000       0.291       0.423
+regiao_Norte[T.True]           0.7475      0.032     23.718      0.000       0.686       0.809
+regiao_Palhoca[T.True]         0.2228      0.032      7.060      0.000       0.161       0.285
+regiao_Sul[T.True]             0.7189      0.031     22.968      0.000       0.658       0.780
+regiao_Sao_Jose[T.True]        0.1994      0.030      6.663      0.000       0.141       0.258
+tipo_Casa[T.True]             -0.1905      0.016    -11.625      0.000      -0.223      -0.158
+log_tamanho_m2                 0.6803      0.021     32.992      0.000       0.640       0.721
+quartos                       -0.0296      0.008     -3.620      0.000      -0.046      -0.014
+banheiros                      0.1303      0.007     17.959      0.000       0.116       0.145
+vagas                          0.0625      0.006     11.260      0.000       0.052       0.073
+piscina                        0.1826      0.010     18.642      0.000       0.163       0.202
+sacada                         0.0489      0.010      4.956      0.000       0.030       0.068
+churrasqueira                  0.0291      0.011      2.675      0.007       0.008       0.050
+imovel_mobiliado               0.0184      0.010      1.930      0.054      -0.000       0.037
+elevador                       0.1234      0.013      9.843      0.000       0.099       0.148
+academia                       0.0299      0.014      2.204      0.028       0.003       0.057
+salao_de_festas                0.0435      0.011      3.818      0.000       0.021       0.066
+==============================================================================
+Omnibus:                      463.771   Durbin-Watson:                   1.755
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1771.973
+Skew:                           0.153   Prob(JB):                         0.00
+Kurtosis:                       5.277   Cond. No.                         126.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
