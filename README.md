@@ -3,7 +3,7 @@ Repositório com scipts utilizados para o TCC do MBA em Data Science &amp; Analy
 
 # Precificação Hedônica de Imóveis na Grande Florianópolis
 
-Repositório do TCC de MBA em Data Science e Analytics — USP/ESALQ (2025).
+Repositório do TCC de MBA em Data Science e Analytics — USP/ESALQ (2026).
 
 ## Objetivo
 Estimar os determinantes do valor de imóveis residenciais nos municípios de 
@@ -12,9 +12,7 @@ os algoritmos Random Forest e XGBoost. A interpretação dos modelos ensemble
 foi realizada via SHAP values.
 
 ## Dados
-Coletados via web scraping em março de 2026 de dois portais imobiliários 
-(Crédito Real Imóveis e Gralha Imóveis). O dataset sanitizado não está 
-disponível neste repositório por restrições de uso das plataformas de origem.
+Coletados via web scraping em março de 2026 de dois portais imobiliários.
 
 ## Estrutura
 📁 scrapers/
@@ -34,11 +32,6 @@ ml_output/           → métricas, SHAP values, comparação de segmentos
 Python 3.12. Instale as dependências com:
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost shap
 statsmodels rapidfuzz requests beautifulsoup4 playwright
-
-## Referência
-Gabriel [Sobrenome]. 2025. Precificação hedônica de imóveis na Grande 
-Florianópolis: uso e comparação de modelos de machine learning. 
-TCC (MBA em Data Science e Analytics) — USP/ESALQ.
 
 Todos os arquivos a subir
 📁 scrapers/
@@ -90,5 +83,3 @@ Todos os arquivos a subir
       shap_beeswarm.png
       comparacao_segmentos.png
       distribuicao_recortes.png
-
-README.md
